@@ -699,6 +699,10 @@ h2 {
   height: 1.25rem;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .w-48 {
   width: 12rem;
 }
@@ -809,6 +813,11 @@ h2 {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
 .bg-logo-light-mode {
   background-image: url('../images/logo-light-mode.svg');
 }
@@ -835,6 +844,10 @@ h2 {
 
 .p-3 {
   padding: 0.75rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .px-6 {
@@ -895,6 +908,10 @@ h2 {
 
 .leading-normal {
   line-height: 1.5;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
 }
 
 .text-gray-500 {
@@ -962,6 +979,11 @@ h2 {
 .dark\:bg-darkBlue1:is(.dark *) {
   --tw-bg-opacity: 1;
   background-color: hsl(218 28% 13% / var(--tw-bg-opacity));
+}
+
+.dark\:bg-darkBlue3:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: hsl(219 30% 18% / var(--tw-bg-opacity));
 }
 
 .dark\:bg-curvy-dark-mode:is(.dark *) {
